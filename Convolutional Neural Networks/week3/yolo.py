@@ -75,7 +75,7 @@ def iou(box1, box2):
     union_area = box1_area + box2_area - inter_area
 
     # compute the IoU
-    iou = flaot(inter_area)/float(union_area)
+    iou = float(inter_area)/float(union_area)
 
     return iou
 
